@@ -13,6 +13,9 @@ public class PublicPrivateProtected {
 			
 			//size is protected; PublicPrivateProtected is not in the same package as Plant
 //			System.out.println(plant.size);
+			
+			// won't work as different package
+//			System.out.println(plant.height);
 	}
 
 }
